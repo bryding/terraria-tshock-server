@@ -1,0 +1,98 @@
+# Terraria TShock Server .gitignore
+
+# World Files and Backups
+worlds/*.wld
+worlds/*.wld.bak
+worlds/*.wld.bak*
+worlds/*.twld
+worlds/*.twldex
+
+# Log Files
+logs/
+*.log
+ServerLog.txt
+tshock/logs/
+
+# TShock Runtime Data
+tshock/warps.json
+tshock/regions.json
+tshock/banlist.txt
+tshock/ipbans.txt
+tshock/uuids.json
+tshock/rangebans.txt
+tshock/setup-code.txt
+tshock/setup-lock.json
+
+# Player and Character Data
+tshock/sscinventory/
+tshock/ssccharacter/
+tshock/backups/
+
+# Server State Files
+tshock/authcode.txt
+tshock/oldconfigs/
+
+# Database Files
+tshock/*.db
+tshock/*.sqlite
+tshock/*.db-journal
+
+# Plugin Data
+ServerPlugins/*.txt
+ServerPlugins/*.json
+ServerPlugins/*.xml
+!ServerPlugins/TShockAPI.xml
+!ServerPlugins/TShockAPI.deps.json
+
+# Temporary Files
+*.tmp
+*.temp
+*.cache
+~*
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# .NET Build Artifacts
+bin/Debug/
+bin/Release/
+obj/
+*.pdb
+!ServerPlugins/*.pdb
+
+# Crash Dumps
+*.dmp
+crash-*.txt
+
+# Local Configuration Overrides
+serverconfig.local.txt
+*.local.json
+
+# Backup Directories
+backup/
+backups/
+old/
+
+# Downloaded Files
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Keep These Files
+!TShock.Server.exe
+!bin/
+!ServerPlugins/TShockAPI.dll
+!GeoIP.dat
+!i18n/

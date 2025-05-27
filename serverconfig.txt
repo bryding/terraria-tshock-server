@@ -1,0 +1,22 @@
+# TShock Server Configuration
+# This is the configuration file for your Terraria server
+
+# World settings
+world=worlds/world1.wld              # Path to world file
+worldname=TerrariaWorld             # Name for auto-generated world
+difficulty=1                        # 0=classic, 1=expert, 2=master, 3=journey
+autocreate=2                        # 1=small, 2=medium, 3=large
+worldpath=worlds                    # Directory for world files
+
+# Server settings
+maxplayers=16                       # Maximum number of players
+port=7777                          # Server port
+password=                          # Leave blank for no password
+motd=Welcome to our Terraria Server!  # Message shown when players join
+
+# Game settings
+secure=1                           # Enable anti-cheat protection
+language=en-US                     # Server language
+
+# Performance settings
+priority=1                         # Process priority (0=low, 1=normal, 2=high)
